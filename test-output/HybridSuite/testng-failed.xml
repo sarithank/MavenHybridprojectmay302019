@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HybridSuite]">
+  <test thread-count="5" name="HybridTest(failed)">
+    <classes>
+      <class name="com.qa.linkedin.testcases.SearchDDTTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- com.qa.linkedin.testcases.SearchDDTTest -->
+    </classes>
+  </test> <!-- HybridTest(failed) -->
+</suite> <!-- Failed suite [HybridSuite] -->

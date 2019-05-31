@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HybridSuite">
+
+ <listeners> 
+  <listener class-name="com.qa.linkedin.extentReports.ExtentReporterNG"/>   
+  <listener class-name="com.qa.linkedin.extentReports.ExtentReportListener"/>  
+ </listeners> 
+
+  <test thread-count="5" name="HybridTest">
+    <classes>
+      <class name="com.qa.linkedin.testcases.SearchDDTTest"/>
+    </classes>
+  </test> <!-- HybridTest -->
+</suite> <!-- HybridSuite -->
